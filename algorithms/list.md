@@ -1,0 +1,1 @@
+[产生一个随机数组 (Java)](randomarray)
