@@ -2,6 +2,8 @@
 
 [linux 的 FAQ](faq)
 
+[linux 的初次配置](firststart)
+
 [linux 系统设置](setting)
 
 [搭建 blog](blog)
