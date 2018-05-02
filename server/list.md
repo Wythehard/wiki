@@ -8,4 +8,4 @@
 
 [git](git/list)
 
-[nginx 的相关东西](nginx/list)
+[web service](nginx/list)
