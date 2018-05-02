@@ -14,4 +14,4 @@
 
 [linux 的防火墙](firewall)
 
-[]
+[神器 zsh 的坑](zsh)
