@@ -1,2 +1,2 @@
 - **who** 查看当前系统谁在线  `ps -ef| grep pts/0 查看该用户的所有进程`  `kill -9 pid` 结束用户的登陆进程即可让用户下线
-- ** uname -a ** 查看 linux 版本
+- **uname -a** 查看 linux 版本
