@@ -88,3 +88,7 @@ scp -P 2580 /opt/soft/demo.tar root@10.6.159.147:/opt/soft/scptest
 tar 压缩   c or x  -zxvf
 
 传输文件   rsync -azvP  origintarget genee@10.0:path
+
+
+### 与 scp 类似的工具
+`rsync -vzrt  linzhen.wu@192.168.0.5:~/* .`  其中 -v 详细信息  -z 压缩  -r 递归 -t 保留文件的时间信息。
