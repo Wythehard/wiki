@@ -1,2 +1,1 @@
-
-- array_filter(array,function) 用回调函数过滤数组中的单元 若无 function 则过滤值为 false 的数组
+- `array_filter(array,function)` 用回调函数过滤数组中的单元 若无 function 则过滤值为 false 的数组
