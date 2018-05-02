@@ -19,3 +19,5 @@
 [恶搞 linux](egao)
 
 [linux 书籍索引](books_index)
+
+[linux 命令集锦](set)
