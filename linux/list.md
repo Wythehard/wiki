@@ -17,3 +17,5 @@
 [神器 zsh 的坑](zsh)
 
 [恶搞 linux](egao)
+
+[linux 书籍索引](books_index)
