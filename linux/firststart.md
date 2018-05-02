@@ -94,7 +94,7 @@ service ssh restart 重启 ssh 服务。ssh 还有隧道的功能，较为复杂
     sudo apt-get upgrade
 
 
-最后，再根据需要，做一些安全设置，比如搭建防火墙，关闭HTTP、HTTPs、SSH以外的端口，再比如安装Fail2Ban，详细可参考这篇《Securing a Linux Server》。
+最后，再根据需要，做一些安全设置，比如搭建防火墙，关闭HTTP、HTTPs、SSH以外的端口，再比如安装Fail2Ban，详细可参考这篇《[Securing a Linux Server](http://spenserj.com/blog/2013/07/15/securing-a-linux-server/)》。
 
 
 
