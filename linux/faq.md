@@ -93,6 +93,5 @@ tar 压缩   c or x  -zxvf
 ### 与 scp 类似的工具
 
     前提是需要已经设置好 ssh
-
-`rsync -vzrt  linzhen.wu@192.168.0.5:~/* .`  其中 -v 详细信息  -z 压缩  -r 递归 -t 保留文件的时间信息。
+    rsync -vzrt  linzhen.wu@192.168.0.5:~/* .  其中 -v 详细信息  -z 压缩  -r 递归 -t 保留文件的时间信息。
 
