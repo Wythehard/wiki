@@ -18,7 +18,7 @@
 
 [恶搞 ](egao)
 
-[书籍索引](books_index)
+[书籍索引](books-index)
 
 [命令集锦](set)
 
