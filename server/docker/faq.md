@@ -97,5 +97,9 @@ $ sudo service docker restart
 docker inspect --format='{{json .Mounts}}'
 
 
-
+### docker 安装 PHP7
 `docker run -v /home/www/data/cgi.log:/tmp/cgi.log -v /home/www/data:/data -v  /home/www/data/php.ini:/usr/local/etc/php/php.ini -p 9000:9000 -d --name php7 php:v3`
+
+### docker 载入tar
+
+docker load -i
