@@ -94,5 +94,11 @@ tar 压缩   c or x  -zxvf
 [rsync 的介绍](https://www.cnblogs.com/f-ck-need-u/p/7220009.html)
     前提是需要已经设置好 ssh
     rsync -vzrt  linzhen.wu@192.168.0.5:~/* .  其中 -v 详细信息  -z 压缩  -r 递归 -t 保留文件的时间信息。
+
+### 更改目录权限
+```
+目录： find path -type d -exec chmod 755 {} \;
+文件： find path -type f -exec chmod 644 {} \;
+```
     
 
