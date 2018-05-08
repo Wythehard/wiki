@@ -2,7 +2,7 @@
 
 [FAQ](faq)
 
-[的初次配置](firststart)
+[初次配置](firststart)
 
 [系统设置](setting)
 
