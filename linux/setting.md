@@ -46,3 +46,6 @@ flkid
 3、vim /etc/sudoers 找到 root ALL=(ALL) ALL 在这行下边添加 dituhui ALL=(ALL) ALL  (ps:dituhui代表是你要添加sudo权限的用户名)
 
 4、除去sudoers文件的写权限： chmod u-w /etc/sudoers
+
+### 终端翻墙
+export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
