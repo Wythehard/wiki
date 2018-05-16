@@ -18,4 +18,4 @@
 
 [网址导航](nav/list)
 
-[代码段](codesnap)
+[代码段](codesnap/list)
