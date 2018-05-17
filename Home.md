@@ -1,7 +1,5 @@
 这是首页，下面是各个分项的列表：
 
-[Genee 开发遇到的问题](http://wlz.wiki.com:4568/list)
-
 [服务端的相关问题](server/list)
 
 [最最讨厌的 Java](java/list)
