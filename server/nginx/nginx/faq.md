@@ -151,4 +151,16 @@ location ~* \.(txt|doc)${
 
 ```
 
-
+nginx 格式化 access_log 输出
+```
+……
+http {
+……
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for" "$http_mycheck"';
+    access_log  logs/access.log  main;
+……
+}
+……
+```
