@@ -32,7 +32,7 @@ TZ='Asia/Shanghai'; export TZ
 mount -o remount,rw /dev/sda1 /
 flkid
 
-#docker 
+# docker 安装
  sudo apt-get install docker-ce
  sudo usermod -aG docker www
 
@@ -53,3 +53,6 @@ update wp_options set option_value='144.202.126.47' where option_name ='siteurl'
 
 ### gollum 重定向操作
 gollum > a.log 2>&1 &
+
+### 生成 ssh key
+ssh-keygen -t rsa -C "邮箱地址"
