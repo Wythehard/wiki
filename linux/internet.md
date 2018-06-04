@@ -1,4 +1,3 @@
-
 ###调整 tcp timeout 的时间
 ``` 
 vi /etc/sysctl.conf
@@ -20,3 +19,5 @@ net.ipv4.tcp_tw_recycle = 1 表示开启TCP连接中TIME-WAIT sockets的快速�
 net.ipv4.tcp_fin_timeout 修改系統默认的 TIMEOUT 时间
 
 ```
+
+### 使用 tcpdump 进行抓包
