@@ -49,15 +49,6 @@ sudo service docker restart
 Warning:docker.service changed on disk. Run 'systemctl daemon-reload' to reload units.
 
 
-
-
-
-### 自动重启
-
-docker up
-
-
-
 ### 查看容器日志
 
 docker logs  -f --tail 10 contain-name 
