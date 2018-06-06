@@ -93,7 +93,8 @@ docker inspect --format='{{json .Mounts}}'
 
 ### docker 载入tar
 
-docker load -i
+docker load -i  xxx.tar
+docker save -o xx.tar   xx:latest
 
 ### docker 自启动 更新启动参数
  docker update --restart=always gollum
