@@ -92,3 +92,6 @@ docker save -o xx.tar   xx:latest
 
 ### docker 自启动 更新启动参数
  docker update --restart=always gollum
+
+### docker 重命名镜像
+docker tag ca1b6b825289 xx:v1.0
