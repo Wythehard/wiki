@@ -274,3 +274,8 @@ endfunc
 * Vim Wikia - 查找与替换：[http://vim.wikia.com/wiki/Search\_and\_replace](http://vim.wikia.com/wiki/Search_and_replace)
 * 用 Vim 打造 IDE 环境：<http://harttle.land/2015/11/04/vim-ide.html>
 
+
+### 设置 paste
+
+set paste
+
