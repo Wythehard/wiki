@@ -52,3 +52,6 @@ export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087
 
 ### wordpress 更换网站
 update wp_options set option_value='144.202.126.47' where option_name ='siteurl' or option_name='home';
+
+### gollum 重定向操作
+gollum > a.log 2>&1 &
