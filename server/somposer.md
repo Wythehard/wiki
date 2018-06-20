@@ -15,11 +15,14 @@
 
 docker 中的 composer，需要先 docker pull composer
 ```
-通过 docker 容器来执行composer 命令  其中 `--ignore-platform-reqs --no-scripts` 忽略一些 PHP 的依赖 直接安装依赖包。
+通过 docker 容器来执行composer 命令 其中 `--ignore-platform-reqs --no-scripts` 忽略一些 PHP 的依赖 直接安装依赖包。
 
 docker run --rm --interactive --tty \
     --volume $PWD:/app \
     --volume $PWD/../composer-config:/tmp \
     composer install --ignore-platform-reqs --no-scripts
 ```
+
+### composer 只更新 autoload 而不更新依赖
+dump-autoload
 
