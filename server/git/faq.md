@@ -204,5 +204,7 @@ git diff commit_id1 commit_id2 -- index.html
 取消不跟踪
 `git update-index --no-assume-unchanged filename.py`
 
+### git clone 单个分支
+ git clone  git@git.jd.com:cps-doc/php-dev-env.git --branch detail --single-branch
 
 ​        
