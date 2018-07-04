@@ -8,3 +8,6 @@
 
 `service iptables restart` 重启防火墙
 `\etc\sysconfig\iptables` 防火墙文件
+
+`socat TCP_LISTEN:90 -` 监听本机 90 端口
+`socat TCP:ip:90 -` 连接远程 90 端口
