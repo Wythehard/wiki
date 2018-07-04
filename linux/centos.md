@@ -5,3 +5,6 @@
 `iptables -nL` 列出所有规则
 
 `route` 列出本机路由表
+
+`service iptables restart` 重启防火墙
+`\etc\sysconfig\iptables` 防火墙文件
