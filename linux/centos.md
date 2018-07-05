@@ -14,3 +14,4 @@
 
 `socat TCP:ip:90 -` 连接远程 90 端口
 
+`netstat -anp` 查看端口占用情况
