@@ -14,7 +14,7 @@
 
 [折腾的小玩意儿](vendor/list)
 
-[工具集](tool)
+[工具集](tool/list)
 
 [不知道该放什么东西](other/list)
 
