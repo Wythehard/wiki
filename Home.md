@@ -14,6 +14,8 @@
 
 [折腾的小玩意儿](vendor/list)
 
+[工具集](tool)
+
 [不知道该放什么东西](other/list)
 
 [网址导航](nav/list)
