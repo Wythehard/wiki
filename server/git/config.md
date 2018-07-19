@@ -13,3 +13,4 @@ config 配置：
 合并俩次提交
 
 - git rebase -i HEAD~2将最近两次提交的记录合并为一次完美记录，git rebase可将不良记录（如拼写错误）从历史中抹去（很实用，很实用）
+- git status -uno 暂时将文件从状态中移除
