@@ -2,3 +2,4 @@
 - **uname -a** 查看 linux 版本
 - **ls | cat -n** 加了一下序号
 - [快捷操作版本](http://wiki.jikexueyuan.com/project/linux-command/chap09.html)
+- [sed](http://man.linuxde.net/sed) -i "s/book/books/g' file 命令

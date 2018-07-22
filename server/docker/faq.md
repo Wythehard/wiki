@@ -49,15 +49,6 @@ sudo service docker restart
 Warning:docker.service changed on disk. Run 'systemctl daemon-reload' to reload units.
 
 
-
-
-
-### 自动重启
-
-docker up
-
-
-
 ### 查看容器日志
 
 docker logs  -f --tail 10 contain-name 
@@ -85,13 +76,6 @@ $ sudo service docker restart
 `docker container cp`命令用于从正在运行的 Docker 容器里面，将文件拷贝到本机。下面是拷贝到当前目录的写法。$ docker container cp [containID]:[/path/to/file] .
 
 
-
-
-
-### node.js
-
-
-
 ### 展示绑定目录
 
 docker inspect --format='{{json .Mounts}}'
@@ -102,4 +86,12 @@ docker inspect --format='{{json .Mounts}}'
 
 ### docker 载入tar
 
-docker load -i
+docker load -i  xxx.tar
+
+docker save -o xx.tar   xx:latest
+
+### docker 自启动 更新启动参数
+ docker update --restart=always gollum
+
+### docker 重命名镜像
+docker tag ca1b6b825289 xx:v1.0

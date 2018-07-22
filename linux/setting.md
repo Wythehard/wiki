@@ -3,25 +3,23 @@ http://www.ruanyifeng.com/blog/2014/03/server_setup.html
 
 #更改 apt-get 源
 sudo vi /etc/apt/sources.list 即可 修改之前可以先备份。
-每个版本的linux源地址不一样，可以去阿里源上找
+每个版本的linux源地址不一样，可以去[阿里源](https://opsx.alibaba.com/mirror)上找
 ```
-deb-src http://archive.ubuntu.com/ubuntu xenial main restricted #Added by software-properties
-deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial main restricted multiverse universe #Added by software-properties
-deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted multiverse universe #Added by software-properties
+deb http://mirrors.aliyun.com/ubuntu/ xenial main
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial main
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates main
+
 deb http://mirrors.aliyun.com/ubuntu/ xenial universe
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial universe
 deb http://mirrors.aliyun.com/ubuntu/ xenial-updates universe
-deb http://mirrors.aliyun.com/ubuntu/ xenial multiverse
-deb http://mirrors.aliyun.com/ubuntu/ xenial-updates multiverse
-deb http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse #Added by software-properties
-deb http://archive.canonical.com/ubuntu xenial partner
-deb-src http://archive.canonical.com/ubuntu xenial partner
-deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted multiverse universe #Added by software-properties
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates universe
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security main
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
-deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security universe
 ```
 #设置 zsh 为默认shell
 sudo chsh -s $(which zsh)设置zsh为默认shell
@@ -34,7 +32,7 @@ TZ='Asia/Shanghai'; export TZ
 mount -o remount,rw /dev/sda1 /
 flkid
 
-#docker 
+# docker 安装
  sudo apt-get install docker-ce
  sudo usermod -aG docker www
 
@@ -55,3 +53,6 @@ update wp_options set option_value='144.202.126.47' where option_name ='siteurl'
 
 ### gollum 重定向操作
 gollum > a.log 2>&1 &
+
+### 生成 ssh key
+ssh-keygen -t rsa -C "邮箱地址"

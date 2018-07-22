@@ -198,4 +198,11 @@ git fetch origin :foo	在本地新建一个分支 foo
 
 git diff commit_id1 commit_id2 -- index.html
 
+
+### git 暂时不跟踪某一个文件
+`git update-index --assume-unchanged filename.py`
+取消不跟踪
+`git update-index --no-assume-unchanged filename.py`
+
+
 ​        
