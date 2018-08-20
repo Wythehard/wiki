@@ -1,6 +1,6 @@
 mysql：
 
-mysql的几个变量： show GLOBAL variables like ‘%log%’;
+mysql的几个变量： show GLOBAL variables like '%log%';
 set GLOBAL  general_log=0;
 包括：
 
