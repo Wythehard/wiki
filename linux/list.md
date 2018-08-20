@@ -23,3 +23,5 @@
 [命令集锦](set)
 
 [网络配置](internet)
+
+[centOS](centos)
