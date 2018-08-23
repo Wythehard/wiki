@@ -24,7 +24,8 @@
 
 #### 开启转发功能
 `sysctl -p` 列出
-`echo 1 >/proc/sys/net/ipv4/ip_forward` 不确定重启是否生效
+
+`vim /etc/sysctl.conf`  修改net.ipv4.ip_forward = 1 
 
 ##### 通过文件修改重启不失效
 `vi /etc/sysconfig/network-script/route-eth0 `
