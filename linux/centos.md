@@ -21,7 +21,7 @@
 `\etc\sysconfig\iptables` 防火墙文件
 
 
-##### 通过文件修改
+##### 通过文件修改重启不失效
 `vi /etc/sysconfig/network-script/route-eth0 `
 
 `vi /etc/sysconfig/network-script/ifcfg-eth0`
