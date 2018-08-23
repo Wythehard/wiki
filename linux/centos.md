@@ -12,7 +12,7 @@
 
 `iptables -t nat -S`  nat 的规则
 
-`route` 列出本机路由表
+`route -n` 列出本机路由表  -n 为列出数字
 
 `service iptables restart` 重启防火墙
 
