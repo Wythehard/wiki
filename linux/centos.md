@@ -21,6 +21,11 @@
 `\etc\sysconfig\iptables` 防火墙文件
 
 
+##### 通过文件修改
+`vi /etc/sysconfig/network-script/route-eth0 `
+
+`vi /etc/sysconfig/network-script/ifcfg-eth0`
+
 #### route 配置
 
 ip route default via gateway地址 dev eth0
