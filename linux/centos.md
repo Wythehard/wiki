@@ -1,6 +1,8 @@
 `yum --enablerepo=extras install epel-release` 当出现 package not found 时执行
 
 
+
+
 ### iptables 和路由相关
 `iptables-save > bak.bak` 备份 iptables 规则
 
@@ -20,6 +22,9 @@
 
 `\etc\sysconfig\iptables` 防火墙文件
 
+#### 开启转发功能
+`sysctl -p` 列出
+`echo 1 >/proc/sys/net/ipv4/ip_forward` 不确定重启是否生效
 
 ##### 通过文件修改重启不失效
 `vi /etc/sysconfig/network-script/route-eth0 `
