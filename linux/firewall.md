@@ -1,5 +1,5 @@
 ### cent OS 的防火墙命令
-[centOS](../centOS)
+[centOS](linux/centOS)
 
 #### 添加端口。
 
