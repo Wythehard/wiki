@@ -3,4 +3,4 @@
 - **ls | cat -n** 加了一下序号
 - [快捷操作版本](http://wiki.jikexueyuan.com/project/linux-command/chap09.html)  命令行光标移动
 - [sed](http://man.linuxde.net/sed) -i "s/book/books/g' file 命令
--`netstat -anp` 查看端口占用情况
+- `netstat -anp` 查看端口占用情况
