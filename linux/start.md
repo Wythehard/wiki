@@ -17,3 +17,6 @@
 06 03 \* \* 3 lp /usr/local/message | mail -s "server message” root
 
     每周三03:06分执行
+
+
+`vi /etc/rc.local` 会在开机执行该命令
