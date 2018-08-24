@@ -1,3 +1,6 @@
+
+[linux 新的索引](newindex)
+
 [先学会用 Vim 吧](vim)
 
 [FAQ](faq)
