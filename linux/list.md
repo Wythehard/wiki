@@ -14,7 +14,7 @@
 
 [防火墙](firewall)
 
-[神器 zsh 的坑](zsh)
+[linux 软件](software)
 
 [恶搞 ](egao)
 
