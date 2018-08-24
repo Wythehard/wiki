@@ -44,16 +44,3 @@ gw 出口网关 IP地址
 dev 出口网关 物理设备名
 ```
 
-
-#### socat 的使用
-
-`socat TCP_LISTEN:90 -` 监听本机 90 端口
-
-`socat TCP:ip:90 -` 连接远程 90 端口
-
-`socat - TCP:IP:90` 从标准输入到远程
-
-
-#### 端口号查询
-
-`netstat -anp` 查看端口占用情况
