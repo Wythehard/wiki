@@ -1,3 +1,6 @@
+### cent OS 的防火墙命令
+[centOS](../centOS)
+
 #### 添加端口。
 
 firewall-cmd --permanent --add-port=3690/tcp
