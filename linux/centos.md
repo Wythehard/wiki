@@ -28,9 +28,9 @@
 `vim /etc/sysctl.conf`  修改net.ipv4.ip_forward = 1 
 
 ##### 通过文件修改重启不失效
-`vi /etc/sysconfig/network-script/route-eth0 `
+`vi /etc/sysconfig/network-script/route-eth0 `  用于 cent OS  `0.0.0.0 via 172.16.0.3 dev eth0`
 
-`vi /etc/sysconfig/network-script/ifcfg-eth0`
+`vi /etc/sysconfig/network-script/ifcfg-eth0`   用于 centOS 仅能设置默认网关
 
 #### route 配置
 
